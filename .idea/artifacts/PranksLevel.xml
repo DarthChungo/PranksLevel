@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PranksLevel">
+    <output-path>$PROJECT_DIR$/out/artifacts/PranksLevel</output-path>
+    <root id="archive" name="PranksLevel.jar">
+      <element id="module-output" name="PranksLevel" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>

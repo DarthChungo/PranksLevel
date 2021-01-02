@@ -1,0 +1,22 @@
+name: PranksLevel
+version: "1.0"
+author: "DarthChungo"
+main:  me.DarthChungo.PranksLevel.PranksLevel
+description: "Notify your friends about the level of pranks that you will take!"
+api-version: 1.16
+load: STARTUP
+
+commands:
+  pranks:
+    description: "Change your pranks level"
+    usage: "/<command> set <level> OR /<command> get [<user>]"
+    permission: pranks.use
+    permission-message: "§cYou don't have permission to use this command."
+
+permissions:
+  pranks.use:
+    description: "Allows you to use the /pranks command"
+    default: true
+  pranks.bypass:
+    description: "Allows you to bypass the /prank timeout"
+    default: false
