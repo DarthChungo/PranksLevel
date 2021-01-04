@@ -1,7 +1,8 @@
+autosave: true
+interval: 3600
 levels:
   low: Allow light pranks that do not leave permanent damage
   medium: Allow medium pranks that leave some damage but no loss of items/xp
   high: Allow pranks that cause light item loss
-
 players:
   d7c6e72b-b232-4cc8-bb14-cb11178e17f2: low
